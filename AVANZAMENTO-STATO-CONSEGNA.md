@@ -33,3 +33,72 @@ Lista dei files necessari per fare deployment della *functional slice* "avanzame
     
     web/WEB-INF/flow/easyticket/avanzamentoStatoConsegna/avanzamentoStatoConsegna-flow.xml
     web/WEB-INF/flow/attivita/gestioneAttivita/gestioneRichieste/avanzamento_stato_consegna/avanzamento_stato_consegna-flow.xml
+
+## Spring beans
+
+    allegatoAttivitaDAO
+    anagraficaAccessoriLogisticaDAO
+    anagraficaFornitoreLogisticaDAO
+    anagraficaLoader
+    anagraficaTransazioniDAO
+    attivitaDAO
+    attivitaManager
+    attivitaUI
+    breadcrumbAction
+    commentoAttivitaDAO
+    conformitaEmailDAO
+    direzioneStoredEmailDAO
+    documentServiceFactory
+    emailAddressDAO
+    emailDestinatarioDAO
+    emailRicevutaService
+    emailRicevuteAction
+    emailRicevuteActionValidator
+    emailTemplateDAO
+    gestioneAllegatoAttivitaAction
+    gestioneAllegatoAttivitaActionValidator
+    gestioneRichiestaAscAction
+    mailingListDAO
+    mailSenderEasyTckService
+    mailSenderService
+    openTicketAction
+    openTicketActionValidator
+    protocolUtil
+    richiestaManager
+    richiestaUI
+    richiestaValidator
+    sessionAction
+    statoAttivitaDAO
+    statoConsegnaSapDAO
+    storedEmailDAO
+    storedEmailManager
+    storedEmailUI
+    templateDestinatarioDAO
+    ticketBaseOrdineNumConsegnaAction
+    ticketBaseOrdineNumConsegnaValidator
+    ticketTrackingDAO
+    tipoAttivitaDAO
+    tipoDestinatarioDAO
+    tipoOlDAO
+    tipoProdottoDAO
+    tipoRichiestaDAO
+    tipoStoredEmailDAO
+    userDAO
+    userManager
+    webContext
+    webTransactionalManager
+
+    declared in the following files:
+
+    web/WEB-INF/spring/anagrafica-beans.xml
+    web/WEB-INF/spring/attivita-beans.xml
+    web/WEB-INF/spring/document-beans.xml
+    web/WEB-INF/spring/email-beans.xml
+    web/WEB-INF/spring/flusso-beans.xml
+    web/WEB-INF/spring/global-beans.xml
+    web/WEB-INF/spring/odvpda-beans.xml
+    web/WEB-INF/spring/protocollo-beans.xml
+    web/WEB-INF/spring/richiesta-beans.xml
+    web/WEB-INF/spring/user-beans.xml
+    web/WEB-INF/spring/workflow-beans.xml
+    web/WEB-INF/spring/worklist-beans.xml
