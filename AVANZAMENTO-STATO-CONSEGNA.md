@@ -28,3 +28,8 @@ Lista dei files necessari per fare deployment della *functional slice* "avanzame
     web/include/global.js
     web/include/collapse-panel/collapse-panel.js
     web/include/header.js
+
+## Spring Web Flow
+    
+    web/WEB-INF/flow/easyticket/avanzamentoStatoConsegna/avanzamentoStatoConsegna-flow.xml
+    web/WEB-INF/flow/attivita/gestioneAttivita/gestioneRichieste/avanzamento_stato_consegna/avanzamento_stato_consegna-flow.xml
